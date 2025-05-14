@@ -75,7 +75,7 @@ after_install = "agriculture.agriculture.setup.setup_agriculture"
 # ------------
 
 # before_uninstall = "agriculture.uninstall.before_uninstall"
-# after_uninstall = "agriculture.uninstall.after_uninstall"
+after_uninstall = "agriculture.agriculture.setup.cleanup_role_and_permissions"
 
 # Desk Notifications
 # ------------------
